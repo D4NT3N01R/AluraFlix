@@ -1,0 +1,49 @@
+.link {
+    font-size: clamp(0.7rem, 1.042vw, 1.25rem); 
+    font-weight: bold;
+    padding: 0.85rem;
+    color: var(--white);
+    border-radius: 0.625rem;
+    border: 2px solid var(--white);
+    margin: 0 0.8rem;
+    text-decoration: none;
+    text-align: center;
+    opacity: 0.9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 9.35rem;
+    transition: 1s;
+}
+
+.link:hover {
+    filter: brightness(1.4);
+    color: var(--blue-light);
+    transform: scale(1.13);
+
+}
+
+.activeLink {
+    background-color: var(--black);
+    color: var(--blue);
+    border: 2px solid var(--blue);
+    border-radius: 0.625rem;
+    box-shadow: inset 0 0 10px 5px var(--blue-light);
+}
+
+@media (max-width: 600px) {
+    .link {
+        border-radius: 0;
+        border: none;
+        border-bottom: 2px solid var(--white);
+    }
+
+    .link:hover {
+        color: var(--blue-light);
+        border-bottom: 2px solid var(--blue-light);
+    }
+
+    .activeLink {
+        border-bottom: 2px solid var(--blue);
+    }
+}

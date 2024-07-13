@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --bg: #191919;
+    --bg-edit: #03122F;
+    --backend: #00C86F;
+    --frontend: #6BD1FF;
+    --inov-gestion: #FFBA05;
+    --error: #FF0000;
+    --light-gray: #A5A5A5;
+    --white: #FFFFFF;
+    --white-smoke: #F5F5F5;
+    --blue: #007BFF;
+    --blue-light: #2271D1;
+    --dark-gray-border: #262626;
+    --black: #000000;
+    --brillo: #FFD700;
+    --button-shadow: #0b223f;
+    --banner: #001233;
+  }

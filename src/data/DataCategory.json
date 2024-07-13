@@ -1,0 +1,18 @@
+[
+    {
+      "id": 1,
+      "name": "FRONT END",
+      "primaryColor": "var(--frontend)"
+    },
+    {
+      "id": 2,
+      "name": "BACK END",
+      "primaryColor": "var(--backend)"
+    },
+    {
+      "id": 3,
+      "name": "INNOVACIÓN Y GESTIÓN",
+      "primaryColor": "var(--inov-gestion)"
+    }
+  ]
+  

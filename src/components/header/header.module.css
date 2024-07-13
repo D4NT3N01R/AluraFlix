@@ -1,0 +1,32 @@
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.1em 10em;
+    background-color: var(--dark-gray-border);
+}
+a{ text-decoration: none;}
+
+.logoContainer{
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.cabecera img {
+    align-self: start;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.linksNav {
+    display: flex;
+    justify-content: space-around;
+   
+}
